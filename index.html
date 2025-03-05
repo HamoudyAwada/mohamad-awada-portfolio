@@ -6,9 +6,43 @@
     <title>Home</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+<header>
+   <a href="index.html"> <img src="./Photos/mohamad-awada-logo.svg" alt="My personal logo identity combining a capital A and M interwoven, as well as a lettermakrk logo of my full name, Mohamad Awada"></a>
+    <nav>
+        <ul>
+            <li><a href="./html-pages/portfolio.html">Portfolio</a></li>
+            <li><a href="./html-pages/about.html">About Me</a></li>
+            <li><a href="./html-pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
     <main>
+    <section>
+        <img src="./Photos/headshot.webp" alt="Me, looking to the right of the frame in a well lit studio while smiling and wearing a vertically striped white collared shirt">
+        <article>
+            <h1>Thanks for Visting!</h1>
+            <p>My name is Mohamad, but I often go by Moe! Welcome to my online portfolio. I'm a junior UX/UI designer currently studying at the Southern Alberta Institute of Technology, or SAIT for short. To me, to exist is to be creative, and so I try my best to live that to it's fullest and truest extent! I live and breathe different kinds of media, and so lately I'm doing my best to create as much media as I consume! I view every day as a new opportunity to learn and further polish my skills, and always take on tasks with an open mind. Thanks for taking the time to have a look at where I am on my journey right now, and I hope you'll take some time to explore and see who I am as well as who I'm on track to become! To learn more about me, click below!</p>
+            <a href="./html-pages/about.html">More About Me &#8594</a>
+        </article>
+    </section>
+    <section>
+        <h2><a href="./html-pages/portfolio.html">Web Development</a></h2>
+        <h2><a href="./html-pages/portfolio.html">UX/UI</a></h2>
+        <h2><a href="./html-pages/portfolio.html">Graphic Design</a></h2>
+        <article>Project 1</article>
+        <article>Project 2</article>
+        <article>Project 3</article>
+    </section>
     </main>
     <script src="./main.js"></script>
 </body>
+<footer>
+<h3>Social Presences</h3>
+<h3>Connect With Me</h3>
+<small> &copy <span id="year"></span> Mohamad Awada <br> All Rights Reserved</small>
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</footer>
 </html>
